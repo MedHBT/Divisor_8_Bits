@@ -1,0 +1,115 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
+-n 3 -fastpaths -xml Comb_Reg_8bits.twx Comb_Reg_8bits.ncd -o
+Comb_Reg_8bits.twr Comb_Reg_8bits.pcf
+
+Design file:              Comb_Reg_8bits.ncd
+Physical constraint file: Comb_Reg_8bits.pcf
+Device,package,speed:     xc5vlx20t,ff323,-1 (PRODUCTION 1.73 2012-07-09, STEPPING level 0)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+E<0>           |S<0>           |    6.583|
+E<1>           |S<1>           |    6.318|
+E<2>           |S<2>           |    6.702|
+E<3>           |S<3>           |    6.748|
+E<4>           |S<4>           |    6.231|
+E<5>           |S<5>           |    6.530|
+E<6>           |S<6>           |    6.790|
+E<7>           |S<7>           |    6.796|
+E_temp<0>      |S<0>           |    6.731|
+E_temp<0>      |S<1>           |    6.334|
+E_temp<0>      |s_out          |    6.037|
+E_temp<1>      |S<0>           |    6.916|
+E_temp<1>      |S<1>           |    6.289|
+E_temp<1>      |S<2>           |    6.329|
+E_temp<2>      |S<1>           |    6.551|
+E_temp<2>      |S<2>           |    6.421|
+E_temp<2>      |S<3>           |    6.648|
+E_temp<3>      |S<2>           |    6.605|
+E_temp<3>      |S<3>           |    6.610|
+E_temp<3>      |S<4>           |    6.720|
+E_temp<4>      |S<3>           |    6.562|
+E_temp<4>      |S<4>           |    6.850|
+E_temp<4>      |S<5>           |    6.611|
+E_temp<5>      |S<4>           |    6.021|
+E_temp<5>      |S<5>           |    6.720|
+E_temp<5>      |S<6>           |    6.485|
+E_temp<6>      |S<5>           |    6.627|
+E_temp<6>      |S<6>           |    6.773|
+E_temp<6>      |S<7>           |    6.404|
+E_temp<7>      |S<6>           |    6.713|
+E_temp<7>      |S<7>           |    6.785|
+E_temp<7>      |s_out          |    6.042|
+load           |S<0>           |    7.005|
+load           |S<1>           |    6.731|
+load           |S<2>           |    6.619|
+load           |S<3>           |    7.028|
+load           |S<4>           |    6.728|
+load           |S<5>           |    6.632|
+load           |S<6>           |    7.371|
+load           |S<7>           |    6.864|
+load           |s_out          |    6.448|
+lr             |S<0>           |    6.892|
+lr             |S<1>           |    7.098|
+lr             |S<2>           |    6.775|
+lr             |S<3>           |    6.680|
+lr             |S<4>           |    6.574|
+lr             |S<5>           |    7.077|
+lr             |S<6>           |    7.233|
+lr             |S<7>           |    6.531|
+lr             |s_out          |    6.657|
+s_in           |S<0>           |    6.659|
+s_in           |S<7>           |    6.459|
+s_in           |s_out          |    5.830|
+s_out_temp     |s_out          |    5.735|
+shift          |S<0>           |    6.589|
+shift          |S<1>           |    6.763|
+shift          |S<2>           |    6.454|
+shift          |S<3>           |    6.662|
+shift          |S<4>           |    6.690|
+shift          |S<5>           |    6.797|
+shift          |S<6>           |    6.965|
+shift          |S<7>           |    7.422|
+shift          |s_out          |    6.724|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Dec 11 21:46:57 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 330 MB
+
+
+

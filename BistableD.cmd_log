@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/BistableD.xst" -ofn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/BistableD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx20t-ff323-1 BistableD.ngc BistableD.ngd  
+map -intstyle ise -p xc5vlx20t-ff323-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o BistableD_map.ncd BistableD.ngd BistableD.pcf 
+par -w -intstyle ise -ol high -mt off BistableD_map.ncd BistableD.ncd BistableD.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml BistableD.twx BistableD.ncd -o BistableD.twr BistableD.pcf 

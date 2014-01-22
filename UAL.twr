@@ -1,0 +1,131 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
+-n 3 -fastpaths -xml UAL.twx UAL.ncd -o UAL.twr UAL.pcf
+
+Design file:              UAL.ncd
+Physical constraint file: UAL.pcf
+Device,package,speed:     xc5vlx20t,ff323,-1 (PRODUCTION 1.73 2012-07-09, STEPPING level 0)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |R<0>           |    6.340|
+A<0>           |R<1>           |    6.579|
+A<0>           |R<2>           |    6.813|
+A<0>           |R<3>           |    6.903|
+A<0>           |R<4>           |    6.762|
+A<0>           |R<5>           |    7.010|
+A<0>           |R<6>           |    6.859|
+A<0>           |R<7>           |    7.105|
+A<1>           |R<1>           |    6.288|
+A<1>           |R<2>           |    6.616|
+A<1>           |R<3>           |    6.691|
+A<1>           |R<4>           |    6.567|
+A<1>           |R<5>           |    6.815|
+A<1>           |R<6>           |    6.664|
+A<1>           |R<7>           |    6.910|
+A<2>           |R<2>           |    6.162|
+A<2>           |R<3>           |    6.394|
+A<2>           |R<4>           |    6.324|
+A<2>           |R<5>           |    6.572|
+A<2>           |R<6>           |    6.421|
+A<2>           |R<7>           |    6.667|
+A<3>           |R<3>           |    6.835|
+A<3>           |R<4>           |    6.930|
+A<3>           |R<5>           |    7.178|
+A<3>           |R<6>           |    7.027|
+A<3>           |R<7>           |    7.273|
+A<4>           |R<4>           |    6.549|
+A<4>           |R<5>           |    6.842|
+A<4>           |R<6>           |    6.885|
+A<4>           |R<7>           |    7.121|
+A<5>           |R<5>           |    6.729|
+A<5>           |R<6>           |    6.866|
+A<5>           |R<7>           |    7.087|
+A<6>           |R<6>           |    6.419|
+A<6>           |R<7>           |    6.662|
+A<7>           |R<7>           |    6.715|
+B<0>           |R<0>           |    6.465|
+B<0>           |R<1>           |    6.704|
+B<0>           |R<2>           |    6.938|
+B<0>           |R<3>           |    7.028|
+B<0>           |R<4>           |    6.887|
+B<0>           |R<5>           |    7.135|
+B<0>           |R<6>           |    6.984|
+B<0>           |R<7>           |    7.230|
+B<1>           |R<1>           |    6.836|
+B<1>           |R<2>           |    7.164|
+B<1>           |R<3>           |    7.239|
+B<1>           |R<4>           |    7.115|
+B<1>           |R<5>           |    7.363|
+B<1>           |R<6>           |    7.212|
+B<1>           |R<7>           |    7.458|
+B<2>           |R<2>           |    6.377|
+B<2>           |R<3>           |    6.474|
+B<2>           |R<4>           |    6.491|
+B<2>           |R<5>           |    6.739|
+B<2>           |R<6>           |    6.588|
+B<2>           |R<7>           |    6.834|
+B<3>           |R<3>           |    6.159|
+B<3>           |R<4>           |    6.254|
+B<3>           |R<5>           |    6.502|
+B<3>           |R<6>           |    6.351|
+B<3>           |R<7>           |    6.597|
+B<4>           |R<4>           |    6.419|
+B<4>           |R<5>           |    6.712|
+B<4>           |R<6>           |    6.755|
+B<4>           |R<7>           |    6.991|
+B<5>           |R<5>           |    6.765|
+B<5>           |R<6>           |    6.902|
+B<5>           |R<7>           |    7.123|
+B<6>           |R<6>           |    6.276|
+B<6>           |R<7>           |    6.519|
+B<7>           |R<7>           |    6.171|
+op             |R<0>           |    6.787|
+op             |R<1>           |    6.988|
+op             |R<2>           |    7.211|
+op             |R<3>           |    7.301|
+op             |R<4>           |    7.160|
+op             |R<5>           |    7.408|
+op             |R<6>           |    7.257|
+op             |R<7>           |    7.503|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Dec 11 16:24:57 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 334 MB
+
+
+

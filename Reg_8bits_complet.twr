@@ -1,0 +1,99 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
+-n 3 -fastpaths -xml Reg_8bits_complet.twx Reg_8bits_complet.ncd -o
+Reg_8bits_complet.twr Reg_8bits_complet.pcf
+
+Design file:              Reg_8bits_complet.ncd
+Physical constraint file: Reg_8bits_complet.pcf
+Device,package,speed:     xc5vlx20t,ff323,-1 (PRODUCTION 1.73 2012-07-09, STEPPING level 0)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+E<0>        |    0.158(R)|    2.047(R)|clk_BUFGP         |   0.000|
+E<1>        |    0.070(R)|    2.129(R)|clk_BUFGP         |   0.000|
+E<2>        |   -0.102(R)|    2.283(R)|clk_BUFGP         |   0.000|
+E<3>        |    0.015(R)|    2.162(R)|clk_BUFGP         |   0.000|
+E<4>        |   -0.285(R)|    2.432(R)|clk_BUFGP         |   0.000|
+E<5>        |   -0.238(R)|    2.386(R)|clk_BUFGP         |   0.000|
+E<6>        |   -0.083(R)|    2.247(R)|clk_BUFGP         |   0.000|
+E<7>        |   -0.556(R)|    2.688(R)|clk_BUFGP         |   0.000|
+load        |    0.610(R)|    2.289(R)|clk_BUFGP         |   0.000|
+lr          |    0.561(R)|    2.328(R)|clk_BUFGP         |   0.000|
+s_in        |   -0.045(R)|    2.442(R)|clk_BUFGP         |   0.000|
+shift       |    0.456(R)|    2.610(R)|clk_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+S<0>        |    8.590(R)|clk_BUFGP         |   0.000|
+S<1>        |    8.594(R)|clk_BUFGP         |   0.000|
+S<2>        |    8.628(R)|clk_BUFGP         |   0.000|
+S<3>        |    8.743(R)|clk_BUFGP         |   0.000|
+S<4>        |    8.552(R)|clk_BUFGP         |   0.000|
+S<5>        |    8.427(R)|clk_BUFGP         |   0.000|
+S<6>        |    8.610(R)|clk_BUFGP         |   0.000|
+S<7>        |    8.759(R)|clk_BUFGP         |   0.000|
+s_out       |   10.044(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.306|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+load           |s_out          |    6.585|
+lr             |s_out          |    6.536|
+s_in           |s_out          |    6.622|
+shift          |s_out          |    6.573|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Dec 16 23:39:36 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 330 MB
+
+
+

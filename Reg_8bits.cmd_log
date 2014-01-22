@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Reg_8bits.xst" -ofn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Reg_8bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx20t-ff323-1 Reg_8bits.ngc Reg_8bits.ngd  
+map -intstyle ise -p xc5vlx20t-ff323-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o Reg_8bits_map.ncd Reg_8bits.ngd Reg_8bits.pcf 
+par -w -intstyle ise -ol high -mt off Reg_8bits_map.ncd Reg_8bits.ncd Reg_8bits.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Reg_8bits.twx Reg_8bits.ncd -o Reg_8bits.twr Reg_8bits.pcf 

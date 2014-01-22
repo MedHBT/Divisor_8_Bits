@@ -1,0 +1,4 @@
+vhdl work "BistableD.vhd"
+vhdl work "Reg_8bits.vhd"
+vhdl work "Comb_Reg_8bits.vhd"
+vhdl work "Reg_8bits_Complet.vhd"

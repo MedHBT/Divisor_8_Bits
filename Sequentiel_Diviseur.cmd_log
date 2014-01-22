@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Sequentiel_Diviseur.xst" -ofn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Sequentiel_Diviseur.syr" 
+xst -intstyle ise -ifn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Sequentiel_Diviseur.xst" -ofn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Sequentiel_Diviseur.syr" 
+xst -intstyle ise -ifn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Sequentiel_Diviseur.xst" -ofn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Sequentiel_Diviseur.syr" 
+xst -intstyle ise -ifn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Sequentiel_Diviseur.xst" -ofn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Sequentiel_Diviseur.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx20t-ff323-1 Sequentiel_Diviseur.ngc Sequentiel_Diviseur.ngd  
+map -intstyle ise -p xc5vlx20t-ff323-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o Sequentiel_Diviseur_map.ncd Sequentiel_Diviseur.ngd Sequentiel_Diviseur.pcf 
+par -w -intstyle ise -ol high -mt off Sequentiel_Diviseur_map.ncd Sequentiel_Diviseur.ncd Sequentiel_Diviseur.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Sequentiel_Diviseur.twx Sequentiel_Diviseur.ncd -o Sequentiel_Diviseur.twr Sequentiel_Diviseur.pcf 

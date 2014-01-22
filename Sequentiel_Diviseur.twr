@@ -1,0 +1,299 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
+-n 3 -fastpaths -xml Sequentiel_Diviseur.twx Sequentiel_Diviseur.ncd -o
+Sequentiel_Diviseur.twr Sequentiel_Diviseur.pcf
+
+Design file:              Sequentiel_Diviseur.ncd
+Physical constraint file: Sequentiel_Diviseur.pcf
+Device,package,speed:     xc5vlx20t,ff323,-1 (PRODUCTION 1.73 2012-07-09, STEPPING level 0)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK_A
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+E_A<0>      |    0.164(R)|    2.675(R)|CLK_A_BUFGP       |   0.000|
+E_A<1>      |    0.004(R)|    2.536(R)|CLK_A_BUFGP       |   0.000|
+E_A<2>      |   -0.083(R)|    2.233(R)|CLK_A_BUFGP       |   0.000|
+E_A<3>      |    0.028(R)|    2.145(R)|CLK_A_BUFGP       |   0.000|
+E_A<4>      |    0.013(R)|    2.147(R)|CLK_A_BUFGP       |   0.000|
+E_A<5>      |   -0.260(R)|    2.397(R)|CLK_A_BUFGP       |   0.000|
+E_A<6>      |   -0.447(R)|    2.568(R)|CLK_A_BUFGP       |   0.000|
+E_A<7>      |    0.047(R)|    2.133(R)|CLK_A_BUFGP       |   0.000|
+LOAD_A      |    0.374(R)|    2.177(R)|CLK_A_BUFGP       |   0.000|
+LR_A        |    0.076(R)|    2.612(R)|CLK_A_BUFGP       |   0.000|
+SHIFT_A     |    0.868(R)|    2.120(R)|CLK_A_BUFGP       |   0.000|
+S_IN_A      |    0.118(R)|    2.300(R)|CLK_A_BUFGP       |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock CLK_B
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+E_B<0>      |    0.149(R)|    2.046(R)|CLK_B_BUFGP       |   0.000|
+E_B<1>      |   -0.413(R)|    2.564(R)|CLK_B_BUFGP       |   0.000|
+E_B<2>      |   -0.128(R)|    2.324(R)|CLK_B_BUFGP       |   0.000|
+E_B<3>      |    0.353(R)|    1.886(R)|CLK_B_BUFGP       |   0.000|
+E_B<4>      |    0.158(R)|    2.039(R)|CLK_B_BUFGP       |   0.000|
+E_B<5>      |    0.052(R)|    2.131(R)|CLK_B_BUFGP       |   0.000|
+E_B<6>      |   -0.235(R)|    2.397(R)|CLK_B_BUFGP       |   0.000|
+E_B<7>      |    0.312(R)|    2.570(R)|CLK_B_BUFGP       |   0.000|
+LOAD_B      |    0.799(R)|    2.122(R)|CLK_B_BUFGP       |   0.000|
+LR_B        |    0.739(R)|    2.278(R)|CLK_B_BUFGP       |   0.000|
+SHIFT_B     |    1.485(R)|    1.704(R)|CLK_B_BUFGP       |   0.000|
+S_IN_B      |   -0.115(R)|    2.296(R)|CLK_B_BUFGP       |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock CLK_C
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+E_C<0>      |    0.318(R)|    1.853(R)|CLK_C_BUFGP       |   0.000|
+E_C<1>      |    0.337(R)|    1.817(R)|CLK_C_BUFGP       |   0.000|
+E_C<2>      |    0.526(R)|    1.649(R)|CLK_C_BUFGP       |   0.000|
+E_C<3>      |    0.359(R)|    1.820(R)|CLK_C_BUFGP       |   0.000|
+E_C<4>      |    0.523(R)|    2.018(R)|CLK_C_BUFGP       |   0.000|
+E_C<5>      |    0.389(R)|    1.777(R)|CLK_C_BUFGP       |   0.000|
+E_C<6>      |   -0.018(R)|    2.157(R)|CLK_C_BUFGP       |   0.000|
+E_C<7>      |    0.473(R)|    1.723(R)|CLK_C_BUFGP       |   0.000|
+LOAD_C      |    0.996(R)|    1.848(R)|CLK_C_BUFGP       |   0.000|
+LR_C        |    1.141(R)|    1.944(R)|CLK_C_BUFGP       |   0.000|
+SHIFT_C     |    1.011(R)|    1.752(R)|CLK_C_BUFGP       |   0.000|
+S_IN_C      |    1.155(R)|    1.661(R)|CLK_C_BUFGP       |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock CLK_CPT
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+INCR_CPT    |    0.529(R)|    2.030(R)|CLK_CPT_BUFGP     |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock CLK_A to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+S_A<0>      |    8.774(R)|CLK_A_BUFGP       |   0.000|
+S_A<1>      |    8.806(R)|CLK_A_BUFGP       |   0.000|
+S_A<2>      |    8.615(R)|CLK_A_BUFGP       |   0.000|
+S_A<3>      |    8.908(R)|CLK_A_BUFGP       |   0.000|
+S_A<4>      |    8.739(R)|CLK_A_BUFGP       |   0.000|
+S_A<5>      |    8.763(R)|CLK_A_BUFGP       |   0.000|
+S_A<6>      |    8.559(R)|CLK_A_BUFGP       |   0.000|
+S_A<7>      |    8.732(R)|CLK_A_BUFGP       |   0.000|
+S_OUT_A     |    9.590(R)|CLK_A_BUFGP       |   0.000|
+------------+------------+------------------+--------+
+
+Clock CLK_B to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+S_B<0>      |    8.622(R)|CLK_B_BUFGP       |   0.000|
+S_B<1>      |    8.798(R)|CLK_B_BUFGP       |   0.000|
+S_B<2>      |    9.711(R)|CLK_B_BUFGP       |   0.000|
+S_B<3>      |    9.507(R)|CLK_B_BUFGP       |   0.000|
+S_B<4>      |    8.842(R)|CLK_B_BUFGP       |   0.000|
+S_B<5>      |    9.041(R)|CLK_B_BUFGP       |   0.000|
+S_B<6>      |    9.527(R)|CLK_B_BUFGP       |   0.000|
+S_B<7>      |    9.209(R)|CLK_B_BUFGP       |   0.000|
+S_OUT_B     |    9.756(R)|CLK_B_BUFGP       |   0.000|
+------------+------------+------------------+--------+
+
+Clock CLK_C to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+S_C<0>      |    9.128(R)|CLK_C_BUFGP       |   0.000|
+S_C<1>      |    8.974(R)|CLK_C_BUFGP       |   0.000|
+S_C<2>      |    9.060(R)|CLK_C_BUFGP       |   0.000|
+S_C<3>      |    9.065(R)|CLK_C_BUFGP       |   0.000|
+S_C<4>      |    9.037(R)|CLK_C_BUFGP       |   0.000|
+S_C<5>      |    9.199(R)|CLK_C_BUFGP       |   0.000|
+S_C<6>      |    8.973(R)|CLK_C_BUFGP       |   0.000|
+S_C<7>      |    9.054(R)|CLK_C_BUFGP       |   0.000|
+S_OUT_C     |   10.341(R)|CLK_C_BUFGP       |   0.000|
+------------+------------+------------------+--------+
+
+Clock CLK_CPT to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+I_CPT<0>    |    8.843(R)|CLK_CPT_BUFGP     |   0.000|
+I_CPT<1>    |    8.697(R)|CLK_CPT_BUFGP     |   0.000|
+I_CPT<2>    |    8.751(R)|CLK_CPT_BUFGP     |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK_A
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK_A          |    1.308|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock CLK_B
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK_B          |    1.476|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock CLK_C
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK_C          |    1.406|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock CLK_CPT
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK_CPT        |    1.498|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+LOAD_A         |S_OUT_A        |    6.830|
+LOAD_B         |S_OUT_B        |    6.911|
+LOAD_C         |S_OUT_C        |    7.669|
+LR_A           |S_OUT_A        |    6.582|
+LR_B           |S_OUT_B        |    6.699|
+LR_C           |S_OUT_C        |    7.885|
+OP             |UAL_R<0>       |    7.665|
+OP             |UAL_R<1>       |    7.216|
+OP             |UAL_R<2>       |    7.565|
+OP             |UAL_R<3>       |    7.442|
+OP             |UAL_R<4>       |    7.731|
+OP             |UAL_R<5>       |    7.755|
+OP             |UAL_R<6>       |    7.916|
+OP             |UAL_R<7>       |    8.207|
+SHIFT_A        |S_OUT_A        |    6.995|
+SHIFT_B        |S_OUT_B        |    7.255|
+SHIFT_C        |S_OUT_C        |    7.329|
+S_IN_A         |S_OUT_A        |    6.107|
+S_IN_B         |S_OUT_B        |    6.294|
+S_IN_C         |S_OUT_C        |    7.718|
+UAL_A<0>       |UAL_R<0>       |    7.527|
+UAL_A<0>       |UAL_R<1>       |    7.078|
+UAL_A<0>       |UAL_R<2>       |    7.421|
+UAL_A<0>       |UAL_R<3>       |    7.291|
+UAL_A<0>       |UAL_R<4>       |    7.422|
+UAL_A<0>       |UAL_R<5>       |    7.446|
+UAL_A<0>       |UAL_R<6>       |    7.607|
+UAL_A<0>       |UAL_R<7>       |    7.898|
+UAL_A<1>       |UAL_R<1>       |    7.239|
+UAL_A<1>       |UAL_R<2>       |    7.676|
+UAL_A<1>       |UAL_R<3>       |    7.531|
+UAL_A<1>       |UAL_R<4>       |    7.679|
+UAL_A<1>       |UAL_R<5>       |    7.703|
+UAL_A<1>       |UAL_R<6>       |    7.864|
+UAL_A<1>       |UAL_R<7>       |    8.155|
+UAL_A<2>       |UAL_R<2>       |    7.180|
+UAL_A<2>       |UAL_R<3>       |    7.092|
+UAL_A<2>       |UAL_R<4>       |    7.346|
+UAL_A<2>       |UAL_R<5>       |    7.370|
+UAL_A<2>       |UAL_R<6>       |    7.531|
+UAL_A<2>       |UAL_R<7>       |    7.822|
+UAL_A<3>       |UAL_R<3>       |    7.037|
+UAL_A<3>       |UAL_R<4>       |    7.404|
+UAL_A<3>       |UAL_R<5>       |    7.428|
+UAL_A<3>       |UAL_R<6>       |    7.589|
+UAL_A<3>       |UAL_R<7>       |    7.880|
+UAL_A<4>       |UAL_R<4>       |    7.081|
+UAL_A<4>       |UAL_R<5>       |    7.150|
+UAL_A<4>       |UAL_R<6>       |    7.505|
+UAL_A<4>       |UAL_R<7>       |    7.786|
+UAL_A<5>       |UAL_R<5>       |    6.916|
+UAL_A<5>       |UAL_R<6>       |    7.365|
+UAL_A<5>       |UAL_R<7>       |    7.631|
+UAL_A<6>       |UAL_R<6>       |    6.918|
+UAL_A<6>       |UAL_R<7>       |    7.206|
+UAL_A<7>       |UAL_R<7>       |    7.039|
+UAL_B<0>       |UAL_R<0>       |    7.220|
+UAL_B<0>       |UAL_R<1>       |    6.771|
+UAL_B<0>       |UAL_R<2>       |    7.114|
+UAL_B<0>       |UAL_R<3>       |    6.984|
+UAL_B<0>       |UAL_R<4>       |    7.115|
+UAL_B<0>       |UAL_R<5>       |    7.139|
+UAL_B<0>       |UAL_R<6>       |    7.300|
+UAL_B<0>       |UAL_R<7>       |    7.591|
+UAL_B<1>       |UAL_R<1>       |    7.142|
+UAL_B<1>       |UAL_R<2>       |    7.579|
+UAL_B<1>       |UAL_R<3>       |    7.434|
+UAL_B<1>       |UAL_R<4>       |    7.582|
+UAL_B<1>       |UAL_R<5>       |    7.606|
+UAL_B<1>       |UAL_R<6>       |    7.767|
+UAL_B<1>       |UAL_R<7>       |    8.058|
+UAL_B<2>       |UAL_R<2>       |    6.851|
+UAL_B<2>       |UAL_R<3>       |    6.728|
+UAL_B<2>       |UAL_R<4>       |    7.017|
+UAL_B<2>       |UAL_R<5>       |    7.041|
+UAL_B<2>       |UAL_R<6>       |    7.202|
+UAL_B<2>       |UAL_R<7>       |    7.493|
+UAL_B<3>       |UAL_R<3>       |    6.865|
+UAL_B<3>       |UAL_R<4>       |    7.232|
+UAL_B<3>       |UAL_R<5>       |    7.256|
+UAL_B<3>       |UAL_R<6>       |    7.417|
+UAL_B<3>       |UAL_R<7>       |    7.708|
+UAL_B<4>       |UAL_R<4>       |    6.808|
+UAL_B<4>       |UAL_R<5>       |    6.877|
+UAL_B<4>       |UAL_R<6>       |    7.232|
+UAL_B<4>       |UAL_R<7>       |    7.513|
+UAL_B<5>       |UAL_R<5>       |    6.715|
+UAL_B<5>       |UAL_R<6>       |    7.164|
+UAL_B<5>       |UAL_R<7>       |    7.430|
+UAL_B<6>       |UAL_R<6>       |    6.951|
+UAL_B<6>       |UAL_R<7>       |    7.239|
+UAL_B<7>       |UAL_R<7>       |    7.065|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Dec 12 17:44:16 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 330 MB
+
+
+

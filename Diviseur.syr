@@ -1,0 +1,503 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.32 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.32 secs
+ 
+--> Reading design: Diviseur.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Diviseur.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Diviseur"
+Output Format                      : NGC
+Target Device                      : xc5vlx20t-1-ff323
+
+---- Source Options
+Top Module Name                    : Diviseur
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/BistableD.vhd" in Library work.
+Architecture arch_bistabled of Entity bistabled is up to date.
+Compiling vhdl file "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Comb_Reg_8bits.vhd" in Library work.
+Architecture arch_comb_reg_8bits of Entity comb_reg_8bits is up to date.
+Compiling vhdl file "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Reg_8bits.vhd" in Library work.
+Architecture arch_reg_8bits of Entity reg_8bits is up to date.
+Compiling vhdl file "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/BistableT.vhd" in Library work.
+Architecture arch_bistablet of Entity bistablet is up to date.
+Compiling vhdl file "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Sequenceur_Diviseur.vhd" in Library work.
+Architecture arch_diviseur of Entity sequenceur_diviseur is up to date.
+Compiling vhdl file "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/UAL.vhd" in Library work.
+Architecture arch_ual of Entity ual is up to date.
+Compiling vhdl file "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Cpt_3bits.vhd" in Library work.
+Architecture arch_cpt_3bits of Entity cpt_3bits is up to date.
+Compiling vhdl file "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Reg_8bits_Complet.vhd" in Library work.
+Architecture arch_reg_8bits_complet of Entity reg_8bits_complet is up to date.
+Compiling vhdl file "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Diviseur.vhd" in Library work.
+Entity <diviseur> compiled.
+Entity <diviseur> (Architecture <arch_diviseur>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Diviseur> in library <work> (architecture <arch_diviseur>).
+
+Analyzing hierarchy for entity <Sequenceur_Diviseur> in library <work> (architecture <arch_diviseur>).
+
+Analyzing hierarchy for entity <UAL> in library <work> (architecture <arch_ual>).
+
+Analyzing hierarchy for entity <Cpt_3bits> in library <work> (architecture <arch_cpt_3bits>).
+
+Analyzing hierarchy for entity <Reg_8bits_complet> in library <work> (architecture <arch_reg_8bits_complet>).
+
+Analyzing hierarchy for entity <BistableT> in library <work> (architecture <arch_bistablet>).
+
+Analyzing hierarchy for entity <Comb_Reg_8bits> in library <work> (architecture <arch_comb_reg_8bits>).
+
+Analyzing hierarchy for entity <Reg_8bits> in library <work> (architecture <arch_reg_8bits>).
+
+Analyzing hierarchy for entity <BistableD> in library <work> (architecture <arch_bistabled>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Diviseur> in library <work> (Architecture <arch_diviseur>).
+WARNING:Xst:753 - "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Diviseur.vhd" line 98: Unconnected output port 's_out' of component 'Reg_8bits_complet'.
+WARNING:Xst:753 - "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Diviseur.vhd" line 102: Unconnected output port 's_out' of component 'Reg_8bits_complet'.
+Entity <Diviseur> analyzed. Unit <Diviseur> generated.
+
+Analyzing Entity <Sequenceur_Diviseur> in library <work> (Architecture <arch_diviseur>).
+Entity <Sequenceur_Diviseur> analyzed. Unit <Sequenceur_Diviseur> generated.
+
+Analyzing Entity <BistableT> in library <work> (Architecture <arch_bistablet>).
+Entity <BistableT> analyzed. Unit <BistableT> generated.
+
+Analyzing Entity <UAL> in library <work> (Architecture <arch_ual>).
+Entity <UAL> analyzed. Unit <UAL> generated.
+
+Analyzing Entity <Cpt_3bits> in library <work> (Architecture <arch_cpt_3bits>).
+Entity <Cpt_3bits> analyzed. Unit <Cpt_3bits> generated.
+
+Analyzing Entity <Reg_8bits_complet> in library <work> (Architecture <arch_reg_8bits_complet>).
+Entity <Reg_8bits_complet> analyzed. Unit <Reg_8bits_complet> generated.
+
+Analyzing Entity <Comb_Reg_8bits> in library <work> (Architecture <arch_comb_reg_8bits>).
+Entity <Comb_Reg_8bits> analyzed. Unit <Comb_Reg_8bits> generated.
+
+Analyzing Entity <Reg_8bits> in library <work> (Architecture <arch_reg_8bits>).
+Entity <Reg_8bits> analyzed. Unit <Reg_8bits> generated.
+
+Analyzing Entity <BistableD> in library <work> (Architecture <arch_bistabled>).
+Entity <BistableD> analyzed. Unit <BistableD> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <UAL>.
+    Related source file is "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/UAL.vhd".
+    Found 8-bit addsub for signal <temp>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <UAL> synthesized.
+
+
+Synthesizing Unit <BistableT>.
+    Related source file is "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/BistableT.vhd".
+INFO:Xst:1608 - Relative priorities of control signals on register <temp> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+    Found 1-bit register for signal <temp>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <BistableT> synthesized.
+
+
+Synthesizing Unit <Comb_Reg_8bits>.
+    Related source file is "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Comb_Reg_8bits.vhd".
+Unit <Comb_Reg_8bits> synthesized.
+
+
+Synthesizing Unit <BistableD>.
+    Related source file is "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/BistableD.vhd".
+INFO:Xst:1608 - Relative priorities of control signals on register <temp> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+    Found 1-bit register for signal <temp>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <BistableD> synthesized.
+
+
+Synthesizing Unit <Sequenceur_Diviseur>.
+    Related source file is "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Sequenceur_Diviseur.vhd".
+Unit <Sequenceur_Diviseur> synthesized.
+
+
+Synthesizing Unit <Cpt_3bits>.
+    Related source file is "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Cpt_3bits.vhd".
+Unit <Cpt_3bits> synthesized.
+
+
+Synthesizing Unit <Reg_8bits>.
+    Related source file is "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Reg_8bits.vhd".
+Unit <Reg_8bits> synthesized.
+
+
+Synthesizing Unit <Reg_8bits_complet>.
+    Related source file is "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Reg_8bits_Complet.vhd".
+Unit <Reg_8bits_complet> synthesized.
+
+
+Synthesizing Unit <Diviseur>.
+    Related source file is "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Diviseur.vhd".
+Unit <Diviseur> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 8-bit addsub                                          : 1
+# Registers                                            : 38
+ 1-bit register                                        : 38
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 8-bit addsub                                          : 1
+# Registers                                            : 38
+ Flip-Flops                                            : 38
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Diviseur> ...
+
+Optimizing unit <Sequenceur_Diviseur> ...
+
+Optimizing unit <Reg_8bits> ...
+
+Mapping all equations...
+WARNING:Xst:2170 - Unit Diviseur : the following signal(s) form a combinatorial loop: B/temp_sout_comb.
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Diviseur, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 38
+ Flip-Flops                                            : 38
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Diviseur.ngr
+Top Level Output File Name         : Diviseur
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 36
+
+Cell Usage :
+# BELS                             : 61
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 7
+#      LUT3                        : 4
+#      LUT4                        : 12
+#      LUT5                        : 18
+#      LUT6                        : 3
+#      MUXCY                       : 7
+#      XORCY                       : 8
+# FlipFlops/Latches                : 38
+#      FDCP                        : 29
+#      FDCPE                       : 9
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 35
+#      IBUF                        : 18
+#      OBUF                        : 17
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vlx20tff323-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              38  out of  12480     0%  
+ Number of Slice LUTs:                   45  out of  12480     0%  
+    Number used as Logic:                45  out of  12480     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     52
+   Number with an unused Flip Flop:      14  out of     52    26%  
+   Number with an unused LUT:             7  out of     52    13%  
+   Number of fully used LUT-FF pairs:    31  out of     52    59%  
+   Number of unique control sets:         6
+
+IO Utilization: 
+ Number of IOs:                          36
+ Number of bonded IOBs:                  36  out of    172    20%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 38    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+------------------------------------------+------------------------+-------+
+Control Signal                            | Buffer(FF name)        | Load  |
+------------------------------------------+------------------------+-------+
+A/Reg8/preset_d0(XST_GND:G)               | NONE(A/Reg8/D0/temp)   | 53    |
+INIT                                      | IBUF                   | 11    |
+S/boucle[1].Ti/temp(S/boucle[1].Ti/temp:Q)| NONE(A/Reg8/D0/temp)   | 11    |
+B/Reg8/preset_d0(S/B01:O)                 | NONE(B/Reg8/D0/temp)   | 1     |
+------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 2.851ns (Maximum Frequency: 350.754MHz)
+   Minimum input arrival time before clock: 2.255ns
+   Maximum output required time after clock: 3.275ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 2.851ns (frequency: 350.754MHz)
+  Total number of paths / destination ports: 537 / 39
+-------------------------------------------------------------------------
+Delay:               2.851ns (Levels of Logic = 10)
+  Source:            A/Reg8/D0/temp (FF)
+  Destination:       A/Reg8/bcl[7].Di/temp (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: A/Reg8/D0/temp to A/Reg8/bcl[7].Di/temp
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCP:C->Q             4   0.471   0.805  A/Reg8/D0/temp (A/Reg8/D0/temp)
+     LUT4:I0->O            1   0.094   0.000  AU/Maddsub_temp_lut<0> (AU/Maddsub_temp_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  AU/Maddsub_temp_cy<0> (AU/Maddsub_temp_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  AU/Maddsub_temp_cy<1> (AU/Maddsub_temp_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  AU/Maddsub_temp_cy<2> (AU/Maddsub_temp_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  AU/Maddsub_temp_cy<3> (AU/Maddsub_temp_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  AU/Maddsub_temp_cy<4> (AU/Maddsub_temp_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  AU/Maddsub_temp_cy<5> (AU/Maddsub_temp_cy<5>)
+     MUXCY:CI->O           0   0.026   0.000  AU/Maddsub_temp_cy<6> (AU/Maddsub_temp_cy<6>)
+     XORCY:CI->O           5   0.357   0.502  AU/Maddsub_temp_xor<7> (AUPlus<7>)
+     LUT5:I4->O            1   0.094   0.000  A/Comb/temp_s_7_or00021 (A/temp_s_comb<7>)
+     FDCP:D                   -0.018          A/Reg8/bcl[7].Di/temp
+    ----------------------------------------
+    Total                      2.851ns (1.544ns logic, 1.307ns route)
+                                       (54.2% logic, 45.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 18 / 18
+-------------------------------------------------------------------------
+Offset:              2.255ns (Levels of Logic = 2)
+  Source:            START (PAD)
+  Destination:       S/T0/temp (FF)
+  Destination Clock: CLK rising
+
+  Data Path: START to S/T0/temp
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.818   0.794  START_IBUF (START_IBUF)
+     LUT4:I0->O            1   0.094   0.336  S/T_0_or00001 (S/T<0>)
+     FDCPE:CE                  0.213          S/T0/temp
+    ----------------------------------------
+    Total                      2.255ns (1.125ns logic, 1.130ns route)
+                                       (49.9% logic, 50.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 17 / 17
+-------------------------------------------------------------------------
+Offset:              3.275ns (Levels of Logic = 1)
+  Source:            S/T0/temp (FF)
+  Destination:       F (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: S/T0/temp to F
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q            4   0.471   0.352  S/T0/temp (S/T0/temp)
+     OBUF:I->O                 2.452          F_OBUF (F)
+    ----------------------------------------
+    Total                      3.275ns (2.923ns logic, 0.352ns route)
+                                       (89.3% logic, 10.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 23.00 secs
+Total CPU time to Xst completion: 22.92 secs
+ 
+--> 
+
+Total memory usage is 274704 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

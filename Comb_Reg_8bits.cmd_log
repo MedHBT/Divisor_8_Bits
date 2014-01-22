@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Comb_Reg_8bits.xst" -ofn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Comb_Reg_8bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx20t-ff323-1 Comb_Reg_8bits.ngc Comb_Reg_8bits.ngd  
+map -intstyle ise -p xc5vlx20t-ff323-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o Comb_Reg_8bits_map.ncd Comb_Reg_8bits.ngd Comb_Reg_8bits.pcf 
+par -w -intstyle ise -ol high -mt off Comb_Reg_8bits_map.ncd Comb_Reg_8bits.ncd Comb_Reg_8bits.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Comb_Reg_8bits.twx Comb_Reg_8bits.ncd -o Comb_Reg_8bits.twr Comb_Reg_8bits.pcf 
+xst -intstyle ise -ifn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Comb_Reg_8bits.xst" -ofn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Comb_Reg_8bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx20t-ff323-1 Comb_Reg_8bits.ngc Comb_Reg_8bits.ngd  
+map -intstyle ise -p xc5vlx20t-ff323-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o Comb_Reg_8bits_map.ncd Comb_Reg_8bits.ngd Comb_Reg_8bits.pcf 
+par -w -intstyle ise -ol high -mt off Comb_Reg_8bits_map.ncd Comb_Reg_8bits.ncd Comb_Reg_8bits.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Comb_Reg_8bits.twx Comb_Reg_8bits.ncd -o Comb_Reg_8bits.twr Comb_Reg_8bits.pcf 
+xst -intstyle ise -ifn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Comb_Reg_8bits.xst" -ofn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Comb_Reg_8bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx20t-ff323-1 Comb_Reg_8bits.ngc Comb_Reg_8bits.ngd  
+map -intstyle ise -p xc5vlx20t-ff323-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o Comb_Reg_8bits_map.ncd Comb_Reg_8bits.ngd Comb_Reg_8bits.pcf 
+par -w -intstyle ise -ol high -mt off Comb_Reg_8bits_map.ncd Comb_Reg_8bits.ncd Comb_Reg_8bits.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Comb_Reg_8bits.twx Comb_Reg_8bits.ncd -o Comb_Reg_8bits.twr Comb_Reg_8bits.pcf 
+xst -intstyle ise -ifn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Comb_Reg_8bits.xst" -ofn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Comb_Reg_8bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx20t-ff323-1 Comb_Reg_8bits.ngc Comb_Reg_8bits.ngd  
+map -intstyle ise -p xc5vlx20t-ff323-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o Comb_Reg_8bits_map.ncd Comb_Reg_8bits.ngd Comb_Reg_8bits.pcf 
+par -w -intstyle ise -ol high -mt off Comb_Reg_8bits_map.ncd Comb_Reg_8bits.ncd Comb_Reg_8bits.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Comb_Reg_8bits.twx Comb_Reg_8bits.ncd -o Comb_Reg_8bits.twr Comb_Reg_8bits.pcf 
+xst -intstyle ise -ifn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Comb_Reg_8bits.xst" -ofn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Comb_Reg_8bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx20t-ff323-1 Comb_Reg_8bits.ngc Comb_Reg_8bits.ngd  
+map -intstyle ise -p xc5vlx20t-ff323-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o Comb_Reg_8bits_map.ncd Comb_Reg_8bits.ngd Comb_Reg_8bits.pcf 
+par -w -intstyle ise -ol high -mt off Comb_Reg_8bits_map.ncd Comb_Reg_8bits.ncd Comb_Reg_8bits.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Comb_Reg_8bits.twx Comb_Reg_8bits.ncd -o Comb_Reg_8bits.twr Comb_Reg_8bits.pcf 

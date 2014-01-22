@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Cpt_3bits.xst" -ofn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Cpt_3bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx20t-ff323-1 Cpt_3bits.ngc Cpt_3bits.ngd  
+map -intstyle ise -p xc5vlx20t-ff323-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o Cpt_3bits_map.ncd Cpt_3bits.ngd Cpt_3bits.pcf 
+par -w -intstyle ise -ol high -mt off Cpt_3bits_map.ncd Cpt_3bits.ncd Cpt_3bits.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Cpt_3bits.twx Cpt_3bits.ncd -o Cpt_3bits.twr Cpt_3bits.pcf 
+xst -intstyle ise -ifn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Cpt_3bits.xst" -ofn "C:/Users/Amine/Desktop/WorkSpace/Xilinx/TP_VHDL_Diviseur/Cpt_3bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx20t-ff323-1 Cpt_3bits.ngc Cpt_3bits.ngd  
+map -intstyle ise -p xc5vlx20t-ff323-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o Cpt_3bits_map.ncd Cpt_3bits.ngd Cpt_3bits.pcf 
+par -w -intstyle ise -ol high -mt off Cpt_3bits_map.ncd Cpt_3bits.ncd Cpt_3bits.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Cpt_3bits.twx Cpt_3bits.ncd -o Cpt_3bits.twr Cpt_3bits.pcf 
